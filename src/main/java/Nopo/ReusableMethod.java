@@ -53,36 +53,25 @@ public class ReusableMethod extends Utils {
         scrollTillElement(By.id("register-button"));
         elementPresent(By.xpath("//span[@class='male']"));
         //enter firstname
-        // driver.findElement(By.id("FirstName")).sendKeys("Milan");
         enterText(By.id("FirstName"), loadProbs.getProperty("FirstName"));
         clearinputfield(By.id("FirstName"));
         enterText(By.id("FirstName"), loadProbs.getProperty("FirstName"));
         enterText(By.id("LastName"),loadProbs.getProperty("LastName"));
         //Enter lastname
-        //driver.findElement(By.id("LastName")).sendKeys("kevadiya");
-
-        //elementPresent(By.xpath("//select[@name=\"DateOfBirthDay\"]"));
-
         selectVisibleValue(By.xpath("//select[@name=\"DateOfBirthDay\"]"),"2");
-
         selectVisibleText(By.xpath("//select[@name=\"DateOfBirthMonth\"]"),"September");
         selectbyIndex(By.xpath("//select[@name=\"DateOfBirthYear\"]"),5);
         //Enter email
-        //driver.findElement(By.name("Email")).sendKeys("milan"+randomdate()+"@gmail.com");
         enterText(By.name("Email"),loadProbs.getProperty("Email")+randomdate()+"@gmail.com");
         System.out.println("milan"+randomdate()+"@gmail.com");
         //Enter password
-        // driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("1234567");
         enterText(By.xpath("//input[@id='Password']"),loadProbs.getProperty("Password"));
         //Enter Confirm password
-        //driver.findElement(By.xpath("//input[@name='ConfirmPassword']")).sendKeys("1234567");
         enterText(By.xpath("//input[@name='ConfirmPassword']"),loadProbs.getProperty("ConfirmPassword"));
         //click on register button
-       // driver.findElement(By.id("register-button")).click();
         clickElement(By.id("register-button"));
         String Expectedmsg= "Your registration completed";
         elementDisplayed(By.xpath("//div[@class='result']"));
-
         String Actualmsg = driver.findElement(By.xpath("//div[@class='result']")).getText();
         waitForElementVisible(By.xpath("//input[@name='register-continue']"),30);
         getAttribute(By.xpath("//input[@name='register-continue']"),"name");
