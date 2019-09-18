@@ -1,6 +1,7 @@
 package Nopo;
 
 
+import com.sun.org.apache.bcel.internal.generic.Select;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,15 +15,16 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class EndToEndTesting {
-    protected static WebDriver driver;
+public class EndToEndTesting extends Utils {
+    LoadProbs loadProbs=new LoadProbs();
+    //protected static WebDriver driver;
     public static String randomdate(){
         //for create randomdate
         DateFormat format=new SimpleDateFormat("ddMMyyHHmmss");
         return format.format(new Date());
     }
     @BeforeMethod
-    public void setup(){
+    public void setup (){
         System.setProperty("webdriver.chrome.driver","src\\main\\Resource\\BrowserDriver\\chromedriver.exe");
         //open the browser
         driver = new ChromeDriver();
@@ -31,7 +33,8 @@ public class EndToEndTesting {
         //set implicity wait for driver object
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         //open the website
-        driver.get("https://demo.nopcommerce.com/");
+        //driver.get("https://demo.nopcommerce.com/");
+       driver.get(loadProbs.getProperty("url"));
 
 
     }
@@ -42,16 +45,27 @@ public class EndToEndTesting {
 
     }
     @Test
-    public static void registration(){
+    public  void registration(){
 
 
         //click on register button
-        driver.findElement(By.xpath("//a[@class='ico-register']")).click();
+        clickElement(By.xpath("//a[@class='ico-register']"));
         //enter firstname
-        driver.findElement(By.id("FirstName")).sendKeys("Milan");
+       // driver.findElement(By.id("FirstName")).sendKeys("Milan");
+        enterText(By.id("FirstName"), loadProbs.getProperty("FirstName"));
+        clearinputfield(By.id("FirstName"));
+        enterText(By.id("FirstName"), loadProbs.getProperty("FirstName"));
+        enterText(By.id("LastName"),loadProbs.getProperty("LastName"));
         //Enter lastname
-        driver.findElement(By.id("LastName")).sendKeys("kevadiya");
+        //driver.findElement(By.id("LastName")).sendKeys("kevadiya");
+
         //Enter email
+        selectVisibleValue(By.xpath("//select[@name=\"DateOfBirthDay\"]"),"2");
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //selectVisibleValue(By.xpath("//select[@name=\"DateOfBirthMonth\"]"),"September");
+       // driver.findElement(By.xpath("//select[@name=\"DateOfBirthMonth\"]")).click();
+        selectVisibleText(By.xpath("//select[@name=\"DateOfBirthMonth\"]"),"September");
+        selectbyIndex(By.xpath("//select[@name=\"DateOfBirthYear\"]"),5);
         driver.findElement(By.name("Email")).sendKeys("milan"+randomdate()+"@gmail.com");
         //Enter password
         System.out.println("milan"+randomdate()+"@gmail.com");
@@ -68,7 +82,7 @@ public class EndToEndTesting {
     }
 
     @Test
-    public static void referefriend(){
+    public  void referefriend(){
         registration();
         driver.findElement(By.xpath("//img[@alt='nopCommerce demo store']")).click();
         driver.findElement(By.linkText("Apple MacBook Pro 13-inch")).click();

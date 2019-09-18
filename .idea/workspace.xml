@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4885513-9d8e-4f40-a07c-8a40bbf9816d" name="Default Changelist" comment="" />
+    <list default="true" id="c4885513-9d8e-4f40-a07c-8a40bbf9816d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resource/testdataConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Nopo/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Nopo/LoadProbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Nopo/ReusableMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Nopo/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Nopo/EndToEndTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Nopo/EndToEndTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Nopo/EndToEndTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Nopo/EndToEndTesting.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,26 +20,92 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="340">
               <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/EndToEndTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1117">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="1003">
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/ReusableMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Resource/testdataConfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#2290#2291#0" expanded="true" />
+                <element signature="e#2336#2337#0" expanded="true" />
+                <element signature="e#4771#4772#0" expanded="true" />
+                <element signature="e#4856#4857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/LoadProbs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +122,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Nopo/LoadProbs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Nopo/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Nopo/EndToEndTesting.java" />
+        <option value="$PROJECT_DIR$/src/main/Resource/testdataConfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Nopo/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Nopo/ReusableMethod.java" />
       </list>
     </option>
   </component>
@@ -67,13 +152,12 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,42 +208,27 @@
             </path>
             <path>
               <item name="Nopotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nopotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nopotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nopotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nopotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nopotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Nopo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nopotest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Soft/selenium-server-standalone-3.141.59.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Nopo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Dev\Nopotest\src\main\Resource\BrowserDriver" />
     </key>
@@ -176,78 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EndToEndTesting">
-    <configuration name="EndToEndTesting" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Nopotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Nopo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Nopo" />
-      <option name="MAIN_CLASS_NAME" value="Nopo.EndToEndTesting" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EndToEndTesting.cameraphoto" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Nopotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Nopo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Nopo" />
-      <option name="MAIN_CLASS_NAME" value="Nopo.EndToEndTesting" />
-      <option name="METHOD_NAME" value="cameraphoto" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EndToEndTesting.jewelleryfilter" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Nopotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Nopo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Nopo" />
-      <option name="MAIN_CLASS_NAME" value="Nopo.EndToEndTesting" />
-      <option name="METHOD_NAME" value="jewelleryfilter" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EndToEndTesting.producttocart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Nopotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Nopo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Nopo" />
-      <option name="MAIN_CLASS_NAME" value="Nopo.EndToEndTesting" />
-      <option name="METHOD_NAME" value="producttocart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ReusableMethod.registration">
     <configuration name="EndToEndTesting.referefriend" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Nopotest" />
       <extension name="coverage">
@@ -266,13 +264,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EndToEndTesting.registration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Nopotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Nopo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Nopo" />
+      <option name="MAIN_CLASS_NAME" value="Nopo.EndToEndTesting" />
+      <option name="METHOD_NAME" value="registration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadProbs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Nopotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Nopo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Nopo" />
+      <option name="MAIN_CLASS_NAME" value="Nopo.LoadProbs" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadProbs.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Nopotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Nopo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Nopo" />
+      <option name="MAIN_CLASS_NAME" value="Nopo.LoadProbs" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReusableMethod.registration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Nopotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Nopo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Nopo" />
+      <option name="MAIN_CLASS_NAME" value="Nopo.ReusableMethod" />
+      <option name="METHOD_NAME" value="registration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EndToEndTesting" />
-        <item itemvalue="TestNG.EndToEndTesting.producttocart" />
-        <item itemvalue="TestNG.EndToEndTesting.jewelleryfilter" />
-        <item itemvalue="TestNG.EndToEndTesting.cameraphoto" />
+        <item itemvalue="TestNG.ReusableMethod.registration" />
+        <item itemvalue="TestNG.EndToEndTesting.registration" />
         <item itemvalue="TestNG.EndToEndTesting.referefriend" />
+        <item itemvalue="TestNG.LoadProbs.test2" />
+        <item itemvalue="TestNG.LoadProbs" />
       </list>
     </recent_temporary>
   </component>
@@ -290,97 +359,143 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EndToEndTesting_producttocart - 2019.09.10 at 13h 26m 57s.xml">
-      <configuration name="EndToEndTesting.producttocart" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.17 at 17h 15m 10s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting_producttocart - 2019.09.10 at 13h 32m 23s.xml">
-      <configuration name="EndToEndTesting.producttocart" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.17 at 17h 16m 34s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting_producttocart - 2019.09.10 at 13h 33m 17s.xml">
-      <configuration name="EndToEndTesting.producttocart" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.18 at 12h 30m 09s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting_producttocart - 2019.09.10 at 13h 36m 24s.xml">
-      <configuration name="EndToEndTesting.producttocart" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.18 at 12h 31m 50s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting_producttocart - 2019.09.10 at 13h 50m 22s.xml">
-      <configuration name="EndToEndTesting.producttocart" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.18 at 14h 06m 22s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting_producttocart - 2019.09.10 at 13h 51m 03s.xml">
-      <configuration name="EndToEndTesting.producttocart" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.18 at 14h 12m 21s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting_producttocart - 2019.09.10 at 13h 58m 51s.xml">
-      <configuration name="EndToEndTesting.producttocart" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.18 at 14h 20m 38s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting_producttocart - 2019.09.10 at 14h 01m 02s.xml">
-      <configuration name="EndToEndTesting.producttocart" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.18 at 14h 31m 58s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting - 2019.09.10 at 14h 02m 57s.xml">
-      <configuration name="EndToEndTesting" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.18 at 14h 37m 47s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EndToEndTesting - 2019.09.10 at 16h 32m 11s.xml">
-      <configuration name="EndToEndTesting" configurationId="TestNG" />
+    <history-entry file="ReusableMethod_registration - 2019.09.18 at 14h 39m 00s.xml">
+      <configuration name="ReusableMethod.registration" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22585924" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21603929" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Nopo/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/EndToEndTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="1003">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="340">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Nopo/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Resource/testdataConfig.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/EndToEndTesting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#2290#2291#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+            <element signature="e#4771#4772#0" expanded="true" />
+            <element signature="e#4856#4857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/ReusableMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/LoadProbs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Nopo/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -423,6 +538,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -445,7 +561,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>selenium-server-standalone-3.141.59</last-edited>
+          <last-edited>Maven: org.testng:testng:7.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
